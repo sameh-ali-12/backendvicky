@@ -51,14 +51,14 @@ app.use(bodyParser.json({limit: '50mb', extended: true}))
 
 ///// الربيع
 
-// mongoose.connect("mongodb+srv://samehali:QWqw1234@cluster1.4744h.mongodb.net/testapp?retryWrites=true&w=majority", {
-//     useNewUrlParser: true,
-//   })
-//   .then(() => console.log("DB Connected!"))
-//   .catch((err) => {
-//     console.log("message");
-//   });
-// mongoose.set("useCreateIndex", true);
+mongoose.connect("mongodb+srv://samehali:QWqw1234@cluster1.4744h.mongodb.net/testapp?retryWrites=true&w=majority", {
+    useNewUrlParser: true,
+  })
+  .then(() => console.log("DB Connected!"))
+  .catch((err) => {
+    console.log("message");
+  });
+mongoose.set("useCreateIndex", true);
 
 
 ///// ارت كيم 
@@ -75,16 +75,16 @@ app.use(bodyParser.json({limit: '50mb', extended: true}))
 
 ///// test
 
-mongoose.connect("mongodb+srv://sameh:QWqw1234@vicky.a4o16.mongodb.net/vicky?retryWrites=true&w=majority", {
-    useNewUrlParser: true,
-    useFindAndModify: false 
+// mongoose.connect("mongodb+srv://sameh:QWqw1234@vicky.a4o16.mongodb.net/vicky?retryWrites=true&w=majority", {
+//     useNewUrlParser: true,
+//     useFindAndModify: false 
 
-  })
-  .then(() => console.log("DB Connected!"))
-  .catch((err) => {
-    console.log(err);
-  });
-mongoose.set("useCreateIndex", true);
+//   })
+//   .then(() => console.log("DB Connected!"))
+//   .catch((err) => {
+//     console.log(err);
+//   });
+// mongoose.set("useCreateIndex", true);
 
 
 ///// test Ahmed
