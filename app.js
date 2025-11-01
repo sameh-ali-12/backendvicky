@@ -105,7 +105,7 @@ app.use(function (req, res, next) {
 
   // Website you wish to allow to connect8
   // res.setHeader('Access-Control-Allow-Origin', '*');
-     /res.setHeader('Access-Control-Allow-Origin', 'https://vickyvicky.web.app');
+     res.setHeader('Access-Control-Allow-Origin', 'https://vickyvicky.web.app');
  
      //// res.setHeader('Access-Control-Allow-Origin', 'http://localhost:4200');
 
